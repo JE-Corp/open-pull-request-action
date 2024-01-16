@@ -1,4 +1,4 @@
-author: Remato
+author: JE-Corp
 name: open-pull-request
 description: GitHub Action to open pull request and return it's id if request is mergeable, otherwise throw error to stop the flow
 branding:
@@ -20,5 +20,5 @@ inputs:
         required: true
 
 runs:
-    using: node12
+    using: node17
     main: 'dist/index.js'
