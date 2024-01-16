@@ -1,3 +1,5 @@
+This action was forked from rematocorp/open-pull-request-action, credits go to the original author; I just followed Dependabot and updated a few things
+
 # Open pull request action
 
 
