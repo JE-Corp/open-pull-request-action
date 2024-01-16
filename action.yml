@@ -1,8 +1,8 @@
 author: JE-Corp
-name: Open Pull Request - Using Node17
+name: Open Pull Request - Updated Node
 description: GitHub Action to open pull request and return it's id if request is mergeable, otherwise throw error to stop the flow
 branding:
-    color: yellow
+    color: blue
     icon: anchor
 inputs:
     github-token:
@@ -20,5 +20,6 @@ inputs:
         required: true
 
 runs:
-    using: node17
+    # Will this work? No idea!:D
+    using: node20.x
     main: 'dist/index.js'
