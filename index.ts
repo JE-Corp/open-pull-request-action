@@ -3,7 +3,7 @@ const { Octokit } = require('@octokit/core')
 
 let octokit
 let retryCount = 0
-const maxAttempts = 3 // https://youtu.be/-IOMNUayJjI
+const maxAttempts = 3
 
 async function run(): Promise<void> {
 	const githubToken = core.getInput('github-token', { required: true })
