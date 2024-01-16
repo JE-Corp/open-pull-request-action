@@ -1,4 +1,6 @@
-This action was forked from rematocorp/open-pull-request-action, credits go to the original author; I just followed Dependabot and updated a few things
+This action was forked from rematocorp/open-pull-request-action, credits go to the original author; I just followed Dependabot and updated a few things.
+
+All credit goes to the original author: @rematocorp.
 
 # Open pull request action
 
