@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Open PR
         id: open_pr
-        uses: JE-Corp/open-pull-request-action@v1.1
+        uses: JE-Corp/open-pull-request-action@v1.1.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           from-branch: change_this
