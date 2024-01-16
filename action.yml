@@ -1,5 +1,5 @@
 author: JE-Corp
-name: open-pull-request
+name: Open Pull Request
 description: GitHub Action to open pull request and return it's id if request is mergeable, otherwise throw error to stop the flow
 branding:
     color: yellow
